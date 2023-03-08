@@ -5,3 +5,5 @@ from .models import *
 
 class StudentAdmin(admin.ModelAdmin):
     list_display = ('name', 'admnno')
+
+admin.site.register([Staff,Student,Department,Subjects,User])
